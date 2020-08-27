@@ -51,8 +51,8 @@
         margin-right: 0;
     }
     .demo-image{
-        width: 100%;
-        margin-left: 0;
+        width: 50%;
+        margin:20px auto;
     }
     .buttondemo{
         margin: 10px;

@@ -1,6 +1,7 @@
 .footer{
     height:500px;
     background-color:darkblue;
+    width: 100%;
 }
 .footer-container{
     width: 90%;
@@ -8,6 +9,12 @@
     margin: 50px auto;
     color:white;
 
+}
+@media only screen and (max-width:600px){
+    .footer-box{
+        flex-direction: column;
+        height: fit-content;
+    }
 }
 .perpendicular-line{
   width:2px;

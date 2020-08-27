@@ -1,6 +1,6 @@
 .testimonial-carosel{
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 500px;
 }
 .testimonial-carosel-buttons{
     text-align:center;
