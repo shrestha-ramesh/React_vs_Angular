@@ -1,0 +1,13 @@
+.testimonial-carosel{
+    width: fit-content;
+    height: fit-content;
+}
+.testimonial-carosel-buttons{
+    text-align:center;
+    /* display:flex;
+    width: 100px;
+    height: 100px; */
+}
+.carosel-button{
+    margin: 20px;
+}

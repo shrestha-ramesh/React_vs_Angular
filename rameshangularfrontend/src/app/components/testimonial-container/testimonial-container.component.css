@@ -1,0 +1,11 @@
+.testimonial-container{
+    width: fit-content;
+    height: fit-content;
+    display:flex;
+    
+}
+@media only screen and (max-width:600px){
+    .testimonial-container{
+        flex-direction:column;
+    }
+}

@@ -1,0 +1,22 @@
+<div class="maindiv1" [ngStyle]= "{'background':bgColor}">
+    <div class="maindiv2">
+        <img src="assets/ai.png" class="demo-image" *ngIf="!textonleft">
+        <div class="innerdiv1" [ngStyle]="{'color':textColor}">
+            <p class="profillogo" *ngIf="profilebutton">{{logo}}</p>
+            <p class="firstp">{{message1}}</p>
+            <h1 class="firsth1">{{message2}}</h1>
+            <P class="secondp">{{message3}}</P>
+            <button class="buttondemo" *ngIf="!buttonhide">{{message4}}</button>
+        </div>
+        <img src="assets/ai.png" class="demo-image" *ngIf="textonleft">
+    </div>
+</div>
+<div class="company-logo" *ngIf="companyLogo">
+    <p class="company-text">as seen in:</p>
+    <div class="company-image">
+        <img src="assets/ai.png" class="company-image1">
+        <img src="assets/ai.png" class="company-image1">
+        <img src="assets/ai.png" class="company-image1">
+    </div>
+</div>
+

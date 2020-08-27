@@ -1,0 +1,22 @@
+<div class="testimonial-carosel">
+    <app-testimonial-container *ngIf="firstContainer"
+    testimonialImage1="assets/tunder.png"
+    testimonialDescription1="Nexus is helping companies discover untapped talent."
+    testimonialCompany1="FORBES"
+    testimonialImage2="assets/tunder.png"
+    testimonialDescription2="Nexus A.I. uses its algorithms to search employees' profiles and backgrounds to determine which would work best together."
+    testimonialCompany2="WALL STREET JOURNAL"
+    ></app-testimonial-container>
+    <app-testimonial-container *ngIf="secondContainer"
+    testimonialImage1="assets/tunder.png"
+    testimonialDescription1="Using A.I. and behavioral science, Nexus A.I. can be used to replace internal spreadsheets."
+    testimonialCompany1="TECH REPUBLIC"
+    testimonialImage2="assets/tunder.png"
+    testimonialDescription2="Nexus A.I. is helping corporate teams become more efficient through artificial intelligence."
+    testimonialCompany2="WGN"
+    ></app-testimonial-container>
+    <div class="testimonial-carosel-buttons">
+        <button class="carosel-button" (click)="showFirstContainer()">left</button>
+        <button class="carosel-button" (click)="showSecondContainer()">right</button>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+.footer{
+    height:500px;
+    background-color:darkblue;
+}
+.footer-container{
+    width: 90%;
+    height:60%;
+    margin: 50px auto;
+    color:white;
+
+}
+.perpendicular-line{
+  width:2px;
+  height:80%;
+  background-color:white;
+}
+.footer-line{
+    display:flex;
+}
+.footer-privacy{
+    margin-left:10px;
+
+}
+.footer-box{
+    height:200px;
+    display:flex;
+    justify-content:space-between;
+    width: 70%;
+}
+.footer-findus{
+    width: 29%;
+}

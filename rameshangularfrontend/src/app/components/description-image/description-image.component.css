@@ -1,0 +1,82 @@
+.maindiv1{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #043551, #41aec1);
+}
+.maindiv2{
+    width: 90%;
+    display: flex;
+    height: 80%;
+}
+.innerdiv1{
+    height: 100%;
+    width: 40%;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    letter-spacing: 0.1em;
+    color:white;
+}
+.demo-image{
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px blacks;
+    height: 100%;
+    margin-right: 80px;
+}
+.buttondemo{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:2px solid black; 
+    width: fit-content;
+    font-size: large;
+}
+@media only screen and (max-width: 600px){
+    .maindiv2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .maindiv1{
+        height: fit-content;
+    }
+    .innerdiv1{
+        width: 100%;
+        height: fit-content;
+        margin-right: 0;
+    }
+    .demo-image{
+        width: 100%;
+        margin-left: 0;
+    }
+    .buttondemo{
+        margin: 10px;
+    }
+    .firstp{
+        width: 100%;
+        margin: 10px auto;
+        text-align: left;
+    }
+    .secondp{
+        margin:10px auto;
+    }
+}
+.company-logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.company-image1{
+    width:150px;
+    height:50px;
+    margin: 40px;
+}
+.company-text{
+    text-transform: uppercase;
+}

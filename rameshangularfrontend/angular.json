@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "rameshangularfrontend"
+    }
+  },
+  "defaultProject": "rameshangularfrontend",
+  "cli": {
+    "analytics": "0f1cb4a5-dc8b-4f19-95d3-118833249054"
+  }
 }
